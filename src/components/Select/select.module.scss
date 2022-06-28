@@ -1,0 +1,21 @@
+.root{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.block{
+  width: 350px;
+}
+
+.field{
+  width: 100%;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}

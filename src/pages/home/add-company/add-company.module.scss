@@ -1,0 +1,17 @@
+.root {
+  margin-bottom: 20px;
+}
+
+.title{
+  margin-bottom: 25px;
+}
+
+.actions{
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+
+  button{
+    margin-left: 10px;
+  }
+}

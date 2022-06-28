@@ -1,0 +1,47 @@
+@import "src/assets/styles/variables";
+
+.modal {
+  position: fixed;
+  width: 500px;
+  min-height: 200px;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid $gray;
+  background: $white;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
